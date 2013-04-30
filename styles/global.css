@@ -1,0 +1,35 @@
+root { 
+    display: block;
+}
+
+nav {
+    height: 46px;
+    background-color: rgba(0,0,0,1);
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav > ul > li {
+    float: left;
+}
+
+nav > ul > li:hover {
+    background-color: blue;
+}
+
+nav > ul ul {
+    display: none;
+}
+
+nav > ul > li:hover ul {
+    display: block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
